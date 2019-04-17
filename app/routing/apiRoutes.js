@@ -7,5 +7,5 @@ module.exports = function(app) {
   });
 };
 app.post("api/friend", function(req, res) {
-  var userInput = req.body;
+  res.json(true);
 });
